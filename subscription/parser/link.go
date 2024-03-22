@@ -16,6 +16,8 @@ func ParseSubscriptionLink(link string) (option.Outbound, error) {
 	switch scheme {
 	case "ss":
 		return ParseShadowsocksLink(link)
+	case "vless":
+		return ParseVlessLink(link)
 	default:
 		return option.Outbound{}, E.New("unsupported scheme: ", scheme)
 	}

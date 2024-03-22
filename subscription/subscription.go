@@ -78,7 +78,7 @@ func NewSubscriptionManager(ctx context.Context, logger logger.Logger, cacheFile
 func (m *Manager) Start() error {
 	for _, subscription := range m.subscriptions {
 		savedSubscription := m.cacheFile.LoadSubscription(subscription.Name)
-		if savedSubscription != nil {
+		if savedSubscription != nil && savedSubscription.Content != nil {
 			subscription.rawServers = savedSubscription.Content
 			subscription.LastUpdated = savedSubscription.LastUpdated
 			subscription.LastEtag = savedSubscription.LastEtag

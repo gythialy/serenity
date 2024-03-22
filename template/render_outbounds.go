@@ -43,11 +43,11 @@ func (t *Template) renderOutbounds(metadata M.Metadata, options *boxOption.Optio
 			Tag:  DNSTag,
 			Type: C.TypeDNS,
 		},
-		{
-			Tag:             defaultTag,
-			Type:            C.TypeSelector,
-			SelectorOptions: common.PtrValueOrDefault(t.CustomSelector),
-		},
+		//{
+		//	Tag:             defaultTag,
+		//	Type:            C.TypeSelector,
+		//	SelectorOptions: common.PtrValueOrDefault(t.CustomSelector),
+		//},
 	}
 	urlTestTag := t.URLTestTag
 	if urlTestTag == "" {

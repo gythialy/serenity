@@ -34,10 +34,10 @@ func parseRawSubscription(content string) ([]option.Outbound, error) {
 }
 
 func decodeBase64URLSafe(content string) (string, error) {
-	content = strings.ReplaceAll(content, " ", "-")
-	content = strings.ReplaceAll(content, "/", "_")
-	content = strings.ReplaceAll(content, "+", "-")
-	content = strings.ReplaceAll(content, "=", "")
+	// content = strings.ReplaceAll(content, " ", "-")
+	// content = strings.ReplaceAll(content, "/", "_")
+	// content = strings.ReplaceAll(content, "+", "-")
+	// content = strings.ReplaceAll(content, "=", "")
 	result, err := base64.StdEncoding.DecodeString(content)
 	return string(result), err
 }

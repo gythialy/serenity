@@ -1,9 +1,9 @@
 berty.tech/go-libtor v1.0.385 h1:RWK94C3hZj6Z2GdvePpHJLnWYobFr3bY/OdUJ5aoEXw=
 berty.tech/go-libtor v1.0.385/go.mod h1:9swOOQVb+kmvuAlsgWUK/4c52pm69AdbJsxLzk+fJEw=
-github.com/Dreamacro/clash v1.18.0 h1:tic7ykTOCaT0mxwAkXo6QP3LN3Nps8oZz9atgr6TU8A=
-github.com/Dreamacro/clash v1.18.0/go.mod h1:r//xe/2pA3Zl+3fjIiI/o6RjIVd+z87drCD58dpRnFg=
 github.com/Dreamacro/protobytes v0.0.0-20230617041236-6500a9f4f158 h1:JFnwKplz9hj8ubqYjm8HkgZS1Rvz9yW+u/XCNNTxr0k=
 github.com/Dreamacro/protobytes v0.0.0-20230617041236-6500a9f4f158/go.mod h1:QvmEZ/h6KXszPOr2wUFl7Zn3hfFNYdfbXwPVDTyZs6k=
+github.com/Kuingsmile/clash-core v0.0.0-20231103062923-f4355233c6bf h1:A7oRlrh1hHJ5gaKW2HjVC0M4Oav09SOeZZfAJIm+JDQ=
+github.com/Kuingsmile/clash-core v0.0.0-20231103062923-f4355233c6bf/go.mod h1:r//xe/2pA3Zl+3fjIiI/o6RjIVd+z87drCD58dpRnFg=
 github.com/ajg/form v1.5.1 h1:t9c7v8JUKu/XxOGBU0yjNpaMloxGEJhUkqFRq0ibGeU=
 github.com/ajg/form v1.5.1/go.mod h1:uL1WgH+h2mgNtvBq0339dVnzXdBETtL2LeUXaIv25UY=
 github.com/andybalholm/brotli v1.0.6 h1:Yf9fFpf49Zrxb9NlQaluyE92/+X7UVHlhMNJN2sxfOI=
@@ -142,8 +142,8 @@ github.com/sagernet/sing-shadowsocks2 v0.2.0 h1:wpZNs6wKnR7mh1wV9OHwOyUr21VkS3wK
 github.com/sagernet/sing-shadowsocks2 v0.2.0/go.mod h1:RnXS0lExcDAovvDeniJ4IKa2IuChrdipolPYWBv9hWQ=
 github.com/sagernet/sing-shadowtls v0.1.4 h1:aTgBSJEgnumzFenPvc+kbD9/W0PywzWevnVpEx6Tw3k=
 github.com/sagernet/sing-shadowtls v0.1.4/go.mod h1:F8NBgsY5YN2beQavdgdm1DPlhaKQlaL6lpDdcBglGK4=
-github.com/sagernet/sing-tun v0.4.0-beta.13.0.20240703164908-1f043289199d h1:2nBM9W9fOCM45hjlu1Fh9qyzBCgKEkq+SOuRCbCCs7c=
-github.com/sagernet/sing-tun v0.4.0-beta.13.0.20240703164908-1f043289199d/go.mod h1:81JwnnYw8X9W9XvmZetSTTiPgIE3SbAbnc+EHKwPJ5U=
+github.com/sagernet/sing-tun v0.4.0-beta.13 h1:UgojXZLwRKAGQPlNR/+2nkAOBdSe1YutDEt6sr8INvI=
+github.com/sagernet/sing-tun v0.4.0-beta.13/go.mod h1:YgaSM4cm+YIn6erBZN/eF+sW7I27BfBt91EWGo53MME=
 github.com/sagernet/sing-vmess v0.1.12 h1:2gFD8JJb+eTFMoa8FIVMnknEi+vCSfaiTXTfEYAYAPg=
 github.com/sagernet/sing-vmess v0.1.12/go.mod h1:luTSsfyBGAc9VhtCqwjR+dt1QgqBhuYBCONB/POhF8I=
 github.com/sagernet/smux v0.0.0-20231208180855-7041f6ea79e7 h1:DImB4lELfQhplLTxeq2z31Fpv8CQqqrUwTbrIRumZqQ=

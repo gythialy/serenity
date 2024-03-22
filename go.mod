@@ -1,6 +1,6 @@
 module github.com/sagernet/serenity
 
-go 1.21
+go 1.22
 
 require (
 	github.com/Dreamacro/clash v1.18.0
@@ -17,6 +17,10 @@ require (
 	golang.org/x/mod v0.19.0
 	golang.org/x/net v0.27.0
 )
+
+replace github.com/Dreamacro/clash v1.18.0 => github.com/Kuingsmile/clash-core v0.0.0-20231103062923-f4355233c6bf
+
+replace github.com/sagernet/sing-tun v0.4.0-beta.13.0.20240703164908-1f043289199d => github.com/sagernet/sing-tun v0.4.0-beta.13
 
 require (
 	berty.tech/go-libtor v1.0.385 // indirect
